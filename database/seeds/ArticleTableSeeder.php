@@ -12,7 +12,7 @@ class ArticleTableSeeder extends Seeder
    */
   public function run()
   {
-    /* Article::truncate(); */
+    Article::truncate();
 
     $faker = \Faker\Factory::create();
 
